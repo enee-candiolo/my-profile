@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Edu+NSW+ACT+Foundation&family=Open+Sans:wght@300&family=Tangerine:wght@400;700&display=swap');
 body{
-	background-color: #FAF9FC
+	background-color: #FEE4FC;
 }
 
 h1{
-	color: #4A235A ; 
+	font-family: 'Tangerine', cursive; 
+	color: #AB16A2 ; 
 	font-size: 45px ; 
 	letter-spacing: 1,5px
 }
 h3{
-	color: #5B2C6F;
+	font-family: 'Tangerine', cursive;
+	color: #AB16A2;
 	font-size: 27px
 }
 h2{
-	color: #6C3483
+	font-family: 'Tangerine', cursive;
+	color: #AB16A2;
+	font-size: 25px;
 }
 a{
 	text-decoration: none;
@@ -27,20 +32,20 @@ p{
 }
 .img-circle{
 	border-radius: 50%; 
-	box-shadow: 0px 10px 30px rgba(0.3,0.3,0.5)
+	box-shadow: 0px 5px 5px rgba(222,177,219);
 }
 
 /* Custom design with class */
 .container {
-	width: 750px;
+	width: 800px;
 	margin: 40px auto;
 }
 
 .card-white {
-	background-color: white;
+	background-color: #FEF1FD;
 	padding: 30px;
 	border-radius: 4px;
-	box-shadow: 0px 10px 10px rgba(0,0,0.1);
+	box-shadow: 0px 5px 5px rgba(222,177,219);
 	margin: 50px;
 	text-align: center;
 }
@@ -57,4 +62,20 @@ p{
 .list-inline i {
 	font-size: 45px;
 	margin: 20px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }
